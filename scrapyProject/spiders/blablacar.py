@@ -15,6 +15,9 @@ class BlablacarSpider(scrapy.Spider):
         for url in urls:
             myurl = homepage + url
             yield scrapy.Request(url=myurl, callback=self.parse_details)
+        nextpage = response.css("li.next > a::attr(href)").extract_first()
+        nexturl = homepage + nextpage
+        yield scrapy.Request(url=nexturl, callback=self.parse)
 
     def parse_details(self, response):
         yield {
