@@ -7,9 +7,6 @@ class BlablacarSpider(scrapy.Spider):
     start_urls = ['https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/#?fn=new+delhi/']
 
     def parse(self, response):
-        # yield {
-        #     'link' : response.css('.relative a::attr(href)').extract()
-        # }
         homepage = "https://www.blablacar.in"
         urls = response.css('.relative a::attr(href)').extract()
         for url in urls:
@@ -21,9 +18,14 @@ class BlablacarSpider(scrapy.Spider):
 
     def parse_details(self, response):
         yield {
-            'location' : response.css('.RideName-location--arrowAfter::text').extract_first(),
-            'node' : response.css('.Footer-footnotes .u-marginNone::text').extract(),
+            # 'location' : response.css('.RideName-location--arrowAfter::text').extract_first(),
+            # 'node' : response.css('.Footer-footnotes .u-marginNone::text').extract(),
+            'source' : response.css(".RideName-location--arrowAfter::text").extract_first(),
+            'destination' : response.css(".RideName-mainTrip span+span::text").extract_first(),
+            'departure_point' : response.css(".RideDetails div span+span span::text").extract_first(),
+            'drop_off_point' : response.css(".RideDetails div+.RideDetails-info span+span span::text").extract_first(),
+            'departure_date' : response.css(".RideDetails div+.RideDetails-info+.RideDetails-info span+strong span::text").extract_first(),
+            'options' : response.css(".RideDetails div+.RideDetails-info+.RideDetails-info+.RideDetails-info span+span div span span::text").extract_first(),
+            'price' : response.css(".Booking-price::text").extract_first(),
+            'seats_left' : response.css(".Booking-seats b::text").extract_first(),
         }
-
-# response.css('.RideName-location--arrowAfter::text').extract_first()
-# response.css('.Footer-footnotes .u-marginNone::text').extract()
