@@ -28,4 +28,8 @@ class BlablacarSpider(scrapy.Spider):
             'options' : response.css(".RideDetails div+.RideDetails-info+.RideDetails-info+.RideDetails-info span+span div span span::text").extract_first(),
             'price' : response.css(".Booking-price::text").extract_first(),
             'seats_left' : response.css(".Booking-seats b::text").extract_first(),
+            'car_owner_image' : response.css(".PhotoWrapper img::attr(src)").extract_first(),
+            'car_owner_name' : response.css(".ProfileCard-info a::text").extract_first(),
+            'car_owner_age' : response.css(".ProfileCard-info + .ProfileCard-info::text").extract_first(),
+            'car_model' : response.css(".Profile-carDetails::text").extract_first(),
         }
