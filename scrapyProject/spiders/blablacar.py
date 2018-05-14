@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# from __future__ import unicode_literals
 import scrapy
 
 
@@ -8,4 +9,7 @@ class BlablacarSpider(scrapy.Spider):
     start_urls = ['https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/#?fn=new+delhi/']
 
     def parse(self, response):
-        print(response.text)
+        # link = response.css('.relative a::attr(href)').extract()
+        yield {
+            'link' : response.css('.relative a::attr(href)').extract()
+        }
