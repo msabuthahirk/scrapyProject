@@ -65,3 +65,100 @@ node,location
 "BlaBlaCar, 2018 ©",Greater Noida
 "BlaBlaCar, 2018 ©",Delhi
 "BlaBlaCar, 2018 ©",New Delhi
+departure_point,departure_date,price,car_owner_name,car_owner_image,car_owner_age,destination,seats_left,drop_off_point,source,car_model,options
+"                            Gurugram, Haryana, India
+                                            ","
+                Today - 03:30
+                            ",₹ 600,Gurjit Singh,https://d2kwny77wxvuie.cloudfront.net/user/Pk4q2lWWSbCCy2sm71q13Q/thumbnail_36x36.jpeg,"
+                                                            27 years old
+                                                    ",Ambala Cantt,1,"                            Ambala Cantt, Haryana, India
+                                            ",Gurugram,,Max. 2 in the back seats
+"                            802, Sector 14 Main Rd, Sector 14, Gurugram, Haryana 122001, India
+                                            ","
+                Today - 05:00
+                            ",₹ 630,Anchal,https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/avatar/driver-f.svg,"
+                                                            26 years old
+                                                    ",Zirakpur,2,"                            Orbit Apartment, Zirakpur
+                                            ",Gurugram,,Max. 2 in the back seats
+"                            Civil Hospital
+                                            ","
+                Today - 05:20
+                            ",₹ 500,Naresh,https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/avatar/driver-m.svg,"
+                                                            36 years old
+                                                    ",Panchkula,3,"                            Sector 6, Panchkula, Haryana 134109, India
+                                            ",Sonipat,Maruti Alto k10,
+"                            Plot-4,, Sector 2 Dwarka, Dwarka, New Delhi, Delhi 110075, India
+                                            ","
+                Today - 05:50
+                            ",₹ 430,Dalip,https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/avatar/driver-m.svg,"
+                                                            57 years old
+                                                    ",Chandigarh,1,"                            Piccadily Chowk, Sector 34A, Sector 21, Chandigarh, 160022, India
+                                            ",Delhi,Maruti Wagon r,Max. 2 in the back seats
+Patiala,"
+                Today - 06:00
+                            ",₹ 538,Arun,https://d2kwny77wxvuie.cloudfront.net/user/vOqPhPmIRdexvAHzpeIrOw/thumbnail_36x36.jpeg,"
+                                                            32 years old
+                                                    ",Rajpura,3,"                            Scholars Public School
+                                            ",New Delhi,Honda Amaze,
+"                            I.S.B.T. Kashmere Gate
+                                            ","
+                Today - 04:10
+                            ",₹ 610,Manvinder,https://d2kwny77wxvuie.cloudfront.net/user/9Hq-DPgUQ3mSnM9ku-teFg/thumbnail_36x36.jpeg,"
+                                                            33 years old
+                                                    ",Chandigarh,4,"                            319, Sector, Himalaya Marg, 9D, Sector 9, Chandigarh, 160009, India
+                                            ",Delhi,,
+Ludhiana,"
+                Today - 04:00
+                            ",₹ 705,Rahul,https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/avatar/driver-m.svg,"
+                                                            35 years old
+                                                    ",Rajpura,4,"                            Scholars Public School
+                                            ",New Delhi,Maruti Swift dzire,
+Delhi,"
+                Today - 07:00
+                                    ",₹ 550,Sandeep,https://d2kwny77wxvuie.cloudfront.net/user/Ls78kxKaQqmmcruCSyGDCA/thumbnail_36x36.jpeg,"
+                                                            33 years old
+                                                    ",Sahibzada Ajit Singh Nagar,3,"                            100/25, Phase 9, Sahibzada Ajit Singh Nagar, Chandigarh 160062, India
+                                            ",Noida,Tata Zest,Max. 2 in the back seats
+"                            IFFCO Chowk, Gurgaon
+                                            ","
+                Today - 07:30
+                            ",₹ 660,Sanjeev,https://d2kwny77wxvuie.cloudfront.net/user/8M2DUTWiQmimj2WtJU4T2g/thumbnail_36x36.jpeg,"
+                                                            39 years old
+                                                    ",Chandigarh,3,"                            ISBT 17, Chandigarh
+                                            ",Gurugram,Hyundai I10,Max. 2 in the back seats
+"                            Sector 6 Dwarka, Dwarka, New Delhi, Delhi 110075, India
+                                            ","
+                Today - 07:30
+                            ",₹ 580,Puneet,https://d2kwny77wxvuie.cloudfront.net/user/7EXxxP-HR4aRxB6kHTSCMQ/thumbnail_36x36.jpeg,"
+                                                            23 years old
+                                                    ",Chandigarh,2,"                            Tribune Chowk
+                                            ",Delhi,Volkswagen Vento,
+"                            I.S.B.T. Kashmere Gate
+                                            ","
+                Today - 07:00
+                            ",₹ 350,Yatin,https://d2kwny77wxvuie.cloudfront.net/user/GC98PNcJRnOBeuOVwjmzmQ/thumbnail_36x36.jpeg,"
+                                                            30 years old
+                                                    ",Chandigarh,1,"                            ISBT Road, 17G, 17F, Sector 17, Chandigarh, India
+                                            ",Delhi,Maruti Ertiga,
+"                            G Block, Sector 16G, Rohini, Delhi, 110089, India
+                                            ","
+                Today - 07:30
+                            ",₹ 550,Bimit,https://d2kwny77wxvuie.cloudfront.net/user/WqgU2zThTu6yk_lNzpTDAA/thumbnail_36x36.jpeg,"
+                                                            24 years old
+                                                    ",Panchkula Urban Estate,1,"                            Sector 8, Panchkula, Haryana 134109, India
+                                            ",Delhi,Maruti Swift,Max. 2 in the back seats
+source
+Gurugram
+Gurugram
+New Delhi
+Greater Noida
+Delhi
+Delhi
+source
+Gurugram
+Gurugram
+New Delhi
+Delhi
+Sonipat
+New Delhi
+New Delhi

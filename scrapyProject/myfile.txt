@@ -1,0 +1,37 @@
+/trip-delhi-ludhiana-1095139915-a606435
+
+scrapy shell -s USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1' 'https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/#?fn=new+delhi/'
+
+
+
+
+
+
+
+
+source = response.css(".RideName-location--arrowAfter::text").extract_first()
+destination = response.css(".RideName-mainTrip span+span::text").extract_first()
+departure_point = response.css(".RideDetails div span+span span::text").extract_first()
+drop_off_point = response.css(".RideDetails div+.RideDetails-info span+span span::text").extract_first()
+departure_date = response.css(".RideDetails div+.RideDetails-info+.RideDetails-info span+strong span::text").extract_first()
+options = response.css(".RideDetails div+.RideDetails-info+.RideDetails-info+.RideDetails-info span+span div span span::text").extract_first()
+price = response.css(".Booking-price::text").extract_first()
+seats_left = response.css(".Booking-seats b::text").extract_first()
+
+
+'car_owner_image' : response.css(".PhotoWrapper img::attr(src)").extract_first(),
+'car_owner_name' : response.css(".ProfileCard-info a::text").extract_first(),
+'car_owner_age' : response.css(".ProfileCard-info + .ProfileCard-info::text").extract_first(),
+'car_model' : response.css(".Profile-carDetails::text").extract_first(),
+
+
+
+'car_color' : change
+
+#dept = response.css(".RideDetails-infoValue span::text").extract_first()
+details = None
+details 2 = None
+travel bag = None
+car_owner_experience = None
+car_owner_rating = None
+car_rating = None
